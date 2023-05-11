@@ -1,13 +1,15 @@
-name: 1 - Hello World!
-run-name: ${{ github.actor }} says hello!
-on: [push]
+name: 1 - Hello World
+run-name: ${{ github.actor }} says hello! # Name for each run
+on: [push] # Trigger on push events
 jobs:
-  hello:
-    runs-on: ubuntu-latest
+  hello: # Job ID
+    name: Hello Job # Job name
+    runs-on: ubuntu-latest # Use the latest version of Ubuntu
     steps:
       - run: echo "Hello!"
   
   world:
+    name: World Job
     runs-on: ubuntu-latest
     steps:
       - run: echo "World!"
