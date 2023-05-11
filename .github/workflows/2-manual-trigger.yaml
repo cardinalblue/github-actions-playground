@@ -1,8 +1,8 @@
-name: Manual Trigger
+name: 2 - Manual Trigger
 on:
-  workflow_dispatch:
+  workflow_dispatch: # Manually trigger the workflow
     inputs:
-      message:
+      message: # Parameter name
         description: 'What do you want to say?'
         required: true
         default: 'Hi!'
