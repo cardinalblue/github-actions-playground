@@ -1,0 +1,13 @@
+name: Job Dependency
+on: [push]
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I'm job 1."
+  
+  job2:
+    runs-on: ubuntu-latest
+    needs: job1 # Dependent on job1
+    steps:
+      - run: echo "I'm job 1!"
