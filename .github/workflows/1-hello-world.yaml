@@ -1,5 +1,5 @@
 name: Hello World
-run-name: ${{ github.actor }} says hello! # Name for each run
+run-name: ${{ github.actor }} says hello! # Name for each run; commit message by default
 on: [push] # Trigger on push events
 jobs:
   hello: # Job ID
