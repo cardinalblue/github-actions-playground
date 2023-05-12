@@ -1,0 +1,12 @@
+name: 4 - Secrets
+on: [push]
+env:
+  WORKFLOW_ENV: 'workflow env'
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    env:
+      JOB_ENV: 'job env'
+    steps:
+      - run: echo ${{ env.WORKFLOW_ENV }}
+      - run: echo ${{ env.JOB_ENV }}
