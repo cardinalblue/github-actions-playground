@@ -1,0 +1,8 @@
+name: 10 - Use Container
+on: [push]
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    container: cirrusci/flutter:stable
+    steps:
+      - run: flutter doctor -v
