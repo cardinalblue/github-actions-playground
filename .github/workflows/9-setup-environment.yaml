@@ -4,5 +4,6 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
-      - run: sudo apt-get update && apt-get install -y cowsay
+      - run: sudo apt-get update
+      - run: sudo apt-get install -y cowsay
       - run: cowsay "Hello World"
