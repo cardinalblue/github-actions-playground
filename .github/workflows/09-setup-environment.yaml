@@ -1,4 +1,4 @@
-name: 9 - Setup Environment
+name: 09 - Setup Environment
 on: [push]
 jobs:
   my-job:

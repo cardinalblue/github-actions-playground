@@ -1,4 +1,4 @@
-name: 6 - Schedule
+name: 06 - Schedule
 on: 
   schedule:
     - cron: '*/5 * * * *' # Every 5th minute.

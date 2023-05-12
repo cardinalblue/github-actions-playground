@@ -1,4 +1,4 @@
-name: 8 - Use Checkout
+name: 08 - Use Checkout
 on: [push]
 jobs:
   my-job:

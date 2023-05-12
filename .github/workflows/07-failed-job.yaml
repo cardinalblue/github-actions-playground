@@ -1,4 +1,4 @@
-name: 7 - Failed Job
+name: 07 - Failed Job
 on:
   workflow_dispatch:
 jobs:

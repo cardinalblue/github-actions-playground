@@ -1,4 +1,4 @@
-name: 2 - Manual Trigger
+name: 02 - Manual Trigger
 on:
   workflow_dispatch: # Manually trigger the workflow
     inputs:

@@ -1,4 +1,4 @@
-name: 3 - Job Dependency
+name: 03 - Job Dependency
 on: [push]
 jobs:
   job1:
