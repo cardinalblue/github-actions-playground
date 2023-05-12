@@ -1,7 +1,7 @@
 name: 6 - Schedule
 on: 
   schedule:
-    - cron: '* * * * *' # Every minute
+    - cron: '*/5 * * * *' # Every 5th minute.
 jobs:
   my-job:
     runs-on: ubuntu-latest
