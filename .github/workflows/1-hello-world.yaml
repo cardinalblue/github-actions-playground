@@ -6,7 +6,8 @@ jobs:
     name: Hello Job # Job name
     runs-on: ubuntu-latest # Use the latest version of Ubuntu
     steps:
-      - run: echo "Hello!"
+      - name: Hello step # Step name
+        run: echo "Hello!"
   
   world:
     name: World Job
