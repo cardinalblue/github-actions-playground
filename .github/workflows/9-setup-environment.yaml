@@ -1,0 +1,8 @@
+name: 9 - Setup Environment
+on: [push]
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: apt-get update && apt-get install -y cowsay
+      - run: cowsay "Hello World"
