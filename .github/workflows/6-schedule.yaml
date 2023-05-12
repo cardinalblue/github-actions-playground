@@ -1,0 +1,9 @@
+name: 6 - Schedule
+on: 
+  schedule:
+    - cron: '* * * * *' # Every minute
+jobs:
+  my-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "I'm scheduled!"
