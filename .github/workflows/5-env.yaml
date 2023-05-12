@@ -1,4 +1,4 @@
-name: 4 - Secrets
+name: 5 - Env
 on: [push]
 env:
   WORKFLOW_ENV: 'workflow env'
